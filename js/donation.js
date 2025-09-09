@@ -4,7 +4,7 @@ document.getElementById('card-1-btn').addEventListener('click', function(e){
     e.preventDefault();
     // button click checked
         // console.log('card 1 button clicked');
-    const amount = parseFloat(document.getElementById('cart-1-amount').value);
+    const amount = parseFloat(document.getElementById('card-1-amount').value);
     const mainCurrentBalance = parseFloat(document.getElementById('main-current-balance').innerText);
     const cart1CurrentBalance = parseFloat(document.getElementById('cart-1-current-balance').innerText);
     // type of amount and amount checked
@@ -34,6 +34,7 @@ document.getElementById('card-1-btn').addEventListener('click', function(e){
             historySection.appendChild(div);
 
             alert('Donation Successful');
+
         }else{
             alert('Please enter a valid amount');
         }
