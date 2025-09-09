@@ -38,17 +38,7 @@ function buttonColorChange(id) {
   document.getElementById(id).classList.add("bg-[#B4F461]");
 }
 
-// // alert box message
-// function alertBox() {
-//   const divBox = document.createElement("div");
-//   divBox.innerText = "Congrates!";
-//   divBox.classList.add(
-//     "bg-white-200",
-//     "text-green-800",
-//     "p-2",
-//     "rounded",
-//     "text-center"
-//   );
-//   console.log(divBox);
-//   return divBox;
-// }
+function alertBox() {
+    document.getElementById('alert-box').classList.remove('hidden');
+
+}

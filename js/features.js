@@ -45,3 +45,8 @@ document.getElementById('blog-btn').addEventListener('click', function(){
     buttonColorChange('blog-btn');
 });
 
+
+// alert box colse button event handler
+document.getElementById('colse-alert-btn').addEventListener('click', function(){
+    document.getElementById('alert-box').classList.add('hidden');
+});

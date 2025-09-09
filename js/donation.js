@@ -33,8 +33,8 @@ document.getElementById('card-1-btn').addEventListener('click', function(e){
             div.appendChild(time);
             historySection.appendChild(div);
 
-            alert('Donation Successful');
-
+            // alert box message
+            alertBox();
         }else{
             alert('Please enter a valid amount');
         }
@@ -75,7 +75,7 @@ document.getElementById('card-2-btn').addEventListener('click', function(e){
             historySection.appendChild(div);
 
 
-            alert('Donation Successful');
+            alertBox();
         }else{
             alert('Please enter a valid amount');
         }
@@ -116,7 +116,7 @@ document.getElementById('card-3-btn').addEventListener('click', function(e){
             historySection.appendChild(div);
 
 
-            alert('Donation Successful');
+            alertBox();
         }else{
             alert('Please enter a valid amount');
         }
